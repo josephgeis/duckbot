@@ -10,7 +10,7 @@ class DuckbotBot(Client):
         print(f"Connected to Discord as {self.user}.")
 
     async def on_message(self, message):
-        if rule.match(message.content):
+        if rule.search(message.content):
             await message.add_reaction(u"\U0001f986")
             await message.channel.send("Quack! Watch your language.")
             print("\U0001f986", end="")
