@@ -1,9 +1,6 @@
-import requests
 from discord import Client
-import discord
 import config
 import re
-from datetime import datetime as dt
 
 rule = re.compile(config.RULE)
 
