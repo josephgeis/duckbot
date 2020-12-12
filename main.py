@@ -1,6 +1,6 @@
 from discord import Client
 import re
-rule = ["shit", "piss", "fuck"]
+rule = ["shit", "piss", "fuck", "fucking"]
 token = ""
 # I got rid of the config file to consolidate it to one file cuz simplicity
 # The old bot was picking up words like "briefcase" as profanity because of the regex, just switched it to a list and its checking if it contains.
