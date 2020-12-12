@@ -1,5 +1,7 @@
 # Bot token from Discord panel
-TOKEN = ""
+TOKEN = "Nzg3MTEwMDY1NjA5Mzc1NzY2.X9QLXw.oacqBQXBXYArl-O2NXh909fvc0w"
 
-# Regex rule to match
-RULE = r"[Ff]+[Rr]{0,}[UVOuvo]{0,}[CKck]+"
+# Curse words to match 
+RULE = [
+    "fuck"
+]
